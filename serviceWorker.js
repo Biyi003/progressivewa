@@ -1,4 +1,4 @@
-const samPWA = "dev-coffee-site-v1"
+const samPWA = "progwa-v1"
 const assets = [
   "/",
   "/index.html",
