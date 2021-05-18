@@ -9,6 +9,10 @@
     <title>Sample PWA</title>
 
   <link rel='manifest' href='manifest.json'>
+  <!-- ios support -->
+  <link rel="apple-touch-icon" href="images/pwalogo.png">
+  <meta name="apple-mobile-web-app-status-bar" content="#db4938" />
+  <meta name="theme-color" content="#db4938" />
 
 
     <!-- Bootstrap core CSS -->
@@ -220,12 +224,12 @@
  tell the user when there is an update available and let the user know when your PWA is ready to use offline.
 */ -->
 
-<script type="module">
+<!-- <script type="module">
 import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
 
 const el = document.createElement('pwa-update');
 document.body.appendChild(el);
-</script>
+</script> -->
 
 </body>
 </html>
